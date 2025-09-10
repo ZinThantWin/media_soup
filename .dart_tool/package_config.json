@@ -117,7 +117,7 @@
     },
     {
       "name": "flutter_webrtc",
-      "rootUri": "file:///Users/kinzo/.pub-cache/hosted/pub.dev/flutter_webrtc-1.0.0",
+      "rootUri": "file:///Users/kinzo/.pub-cache/hosted/pub.dev/flutter_webrtc-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -180,6 +180,12 @@
       "rootUri": "file:///Users/kinzo/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "logger",
+      "rootUri": "file:///Users/kinzo/.pub-cache/hosted/pub.dev/logger-2.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "logging",
@@ -464,7 +470,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2025-08-26T08:00:10.817359Z",
+  "generated": "2025-09-10T08:02:14.398443Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///Users/kinzo/Documents/flutter3.29.3",

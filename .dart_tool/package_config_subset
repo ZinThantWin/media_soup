@@ -68,8 +68,8 @@ file:///Users/kinzo/.pub-cache/hosted/pub.dev/file-7.0.1/
 file:///Users/kinzo/.pub-cache/hosted/pub.dev/file-7.0.1/lib/
 flutter_webrtc
 3.3
-file:///Users/kinzo/.pub-cache/hosted/pub.dev/flutter_webrtc-1.0.0/
-file:///Users/kinzo/.pub-cache/hosted/pub.dev/flutter_webrtc-1.0.0/lib/
+file:///Users/kinzo/.pub-cache/hosted/pub.dev/flutter_webrtc-1.1.0/
+file:///Users/kinzo/.pub-cache/hosted/pub.dev/flutter_webrtc-1.1.0/lib/
 frontend_server_client
 3.0
 file:///Users/kinzo/.pub-cache/hosted/pub.dev/frontend_server_client-4.0.0/
@@ -110,6 +110,10 @@ leak_tracker_testing
 3.2
 file:///Users/kinzo/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1/
 file:///Users/kinzo/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1/lib/
+logger
+2.17
+file:///Users/kinzo/.pub-cache/hosted/pub.dev/logger-2.6.1/
+file:///Users/kinzo/.pub-cache/hosted/pub.dev/logger-2.6.1/lib/
 logging
 3.4
 file:///Users/kinzo/.pub-cache/hosted/pub.dev/logging-1.3.0/
@@ -292,8 +296,8 @@ file:///Users/kinzo/.pub-cache/hosted/pub.dev/yaml-3.1.3/
 file:///Users/kinzo/.pub-cache/hosted/pub.dev/yaml-3.1.3/lib/
 mediasoup_client_flutter
 2.12
-file:///Users/kinzo/Desktop/example/meedia_client_m/
-file:///Users/kinzo/Desktop/example/meedia_client_m/lib/
+file:///Users/kinzo/Desktop/xSphere/Packages/media_soup/
+file:///Users/kinzo/Desktop/xSphere/Packages/media_soup/lib/
 sky_engine
 3.7
 file:///Users/kinzo/Documents/flutter3.29.3/bin/cache/pkg/sky_engine/
