@@ -324,7 +324,7 @@ class RtpHeaderExtension {
         "uri": uri,
         "preferredId": preferredId,
         "preferredEncrypt": preferredEncrypt,
-        "direction": direction
+        "direction": direction?.name
       };
 }
 
