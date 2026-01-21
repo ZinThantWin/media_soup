@@ -320,7 +320,8 @@ class RtpHeaderExtension {
         direction = RtpHeaderDirectionExtension.fromString(data['direction']);
 
   Map<String, dynamic> toMap() => {
-        "kind": kind?.name,
+        "kind":
+            kind == RTCRtpMediaType.RTCRtpMediaTypeAudio ? "audio" : "video",
         "uri": uri,
         "preferredId": preferredId,
         "preferredEncrypt": preferredEncrypt,
