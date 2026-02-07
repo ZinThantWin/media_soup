@@ -416,8 +416,7 @@ class RtpEncodingParameters extends RTCRtpEncoding {
    * Others.
    */
   bool? adaptivePtime;
-  Priority? priority;
-  Priority? networkPriority;
+  RTCPriorityType? networkPriority;
 
   RtpEncodingParameters({
     this.codecPayloadType,
@@ -425,7 +424,6 @@ class RtpEncodingParameters extends RTCRtpEncoding {
     this.dtx,
     this.scalabilityMode,
     this.adaptivePtime,
-    this.priority,
     this.networkPriority,
     bool active = true,
     int? maxBitrate,
@@ -453,12 +451,16 @@ class RtpEncodingParameters extends RTCRtpEncoding {
       dtx: data['dtx'],
       scalabilityMode: data['scalabilityMode'],
       adaptivePtime: data['adaptivePtime'],
-      priority: data['priority'] != null
-          ? PriorityExtension.fromString(data['priority'])
-          : null,
+      // priority: data['priority'] != null
+      //     ? PriorityExtension.fromString(data['priority'])
+      //     : null,
+      // networkPriority: data['networkPriority'] != null
+      //     ? PriorityExtension.fromString(data['networkPriority'])
+      //     : null,
       networkPriority: data['networkPriority'] != null
-          ? PriorityExtension.fromString(data['networkPriority'])
+          ? RTCPriorityType.values.firstWhere((e) => e.name == data['priority'])
           : null,
+
       active: data['active'] ?? true,
       maxBitrate: data['maxBitrate'],
       maxFramerate: data['maxFramerate'],
@@ -499,7 +501,7 @@ class RtpEncodingParameters extends RTCRtpEncoding {
       dtx: next.dtx ?? prev.dtx,
       scalabilityMode: next.scalabilityMode ?? prev.scalabilityMode,
       adaptivePtime: next.adaptivePtime ?? prev.adaptivePtime,
-      priority: next.priority ?? prev.priority,
+      // priority: next.priority ?? prev.priority,
       networkPriority: next.networkPriority ?? prev.networkPriority,
       active: next.active,
       maxBitrate: next.maxBitrate ?? prev.maxBitrate,
